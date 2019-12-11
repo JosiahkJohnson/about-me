@@ -1,21 +1,22 @@
 .heading{
-    position: absolute;
-    left: 10%;
-    height: 20px;
-    width: auto;
-    background: #4aaaa5;
+    display: inline;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+#name{
+    left: 10%;
+    width: auto;
+    padding: 10px;
+    background: #4aaaa5;
 }
 
 .navigate{
     color: blue;
     float: right;
     list-style-type: none;
-    display: inline;
     padding-left: 0;
 }
 
-#content{
+.content{
     margin-left: 20%;
     margin-top:20%;
     height: 960px;
