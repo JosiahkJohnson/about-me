@@ -1,0 +1,24 @@
+.heading{
+    position: absolute;
+    left: 10%;
+    height: 20px;
+    width: auto;
+    background: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.navigate{
+    color: blue;
+    float: right;
+    list-style-type: none;
+    display: inline;
+    padding-left: 0;
+}
+
+#content{
+    margin-left: 20%;
+    margin-top:20%;
+    height: 960px;
+    width: 960px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
