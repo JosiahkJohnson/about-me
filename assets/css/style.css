@@ -1,25 +1,87 @@
-.heading{
-    display: inline;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-}
-#name{
-    left: 10%;
-    width: auto;
+#heading{
+    margin: 0px, 30px, 30px, 30px;
+    margin-left: 15%;
+    margin-right: auto;
     padding: 10px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    display: inline-block;
     background: #4aaaa5;
 }
 
-.navigate{
-    color: blue;
-    float: right;
-    list-style-type: none;
-    padding-left: 0;
+#contacts{
+    top: 30px;
+    right: 150px;
+    position: absolute;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: large;
 }
 
+ul.links li{
+    width: auto;
+    margin: 5px;
+    float: left;
+    list-style-type: none;
+}
+
+a{text-decoration: none;}
+
+.backdrop{
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top: 15%;
+    height: 70%;
+    width: 100%;
+    background-image: url(../images/background-image.png);
+    z-index: 1;
+}
 .content{
     margin-left: 20%;
-    margin-top:20%;
-    height: 960px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+    position: relative;
+    top: 30%;
+    height: auto;
     width: 960px;
+    background: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    flex-direction: column;
+    z-index: 2;
+}
+
+#sep-line{
+    width: 80%;
+    height: 2px;
+    margin-left: 45px;
+    background: #4aaaa5;
+    z-index: 3;
+}
+
+h2{
+    width: auto;
+    height: auto;
+    margin-left: 30px;
+    padding: 5px;
+    display: inline-block;
+}
+
+#my-picture{
+    max-width: 150px;
+    max-height: 150px;
+    margin: 10px;
+    float: left;
+}
+
+#foot{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    margin: 0px;
+    height: 10%;
+    bottom: 0px;
+    bottom: auto;
+    background: #666666;
+    color: white;
+    z-index: 1;
 }
