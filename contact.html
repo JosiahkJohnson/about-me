@@ -1,23 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Contacts</title>
-    <div id="my-name">
-        <h1>Josiah Johnson</h1>
-    </div>
-</head>
-<body>
-    <div id="contact-pannel">
-        <h2>Contact</h2>
-        <h3>Name</h3>
-        <h3>email</h3>
-        <h3>message</h3>
-    </div>
-</body>
-<footer>
-    copyright &copy;
-</footer>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <title>Josiah Johnson</title>
+        <!--My name at the top of the screen-->
+        <div id="heading">
+           <h1>Josiah Johnson</h1>
+        </div>
+    
+        <!--All the fun links in the top right side-->
+        <nav id="contacts">
+            <ul class="links">
+                <li><a href="">About</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </head>
+    <body>
+        <div class="backdrop">
+            <div class="content">
+                <h2>Contact</h2>
+                <h3>Name</h3>
+                <textarea name="name" id="name" cols="120" rows="1">Your name (John Smith)</textarea>
+                <h3>Email</h3>
+                <textarea name="email" id="email" cols="120" rows="1">example@gmail.com</textarea>
+                <h3>Message</h3>
+                <textarea name="message" id="message" cols="120" rows="10"></textarea>
+            </div>
+        </div>
+    </body>
+    <footer class="foot">
+        copyright &copy;
+    </footer>
 </html>

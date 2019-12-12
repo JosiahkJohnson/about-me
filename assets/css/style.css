@@ -1,11 +1,12 @@
 #heading{
     margin: 0px, 30px, 30px, 30px;
-    margin-left: 15%;
+    margin-left: 20%;
     margin-right: auto;
     padding: 10px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     display: inline-block;
     background: #4aaaa5;
+    color: white;
 }
 
 #contacts{
@@ -23,6 +24,7 @@ ul.links li{
     list-style-type: none;
 }
 
+/*This line removes the underline on my links in the header*/
 a{text-decoration: none;}
 
 .backdrop{
@@ -30,7 +32,8 @@ a{text-decoration: none;}
     padding: 0px;
     margin: 0px;
     top: 15%;
-    height: 70%;
+    min-height: 70%;
+    height: auto;
     width: 100%;
     background-image: url(../images/background-image.png);
     z-index: 1;
@@ -45,6 +48,7 @@ a{text-decoration: none;}
     height: auto;
     width: 960px;
     background: #ffffff;
+    color: #4aaaa5;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     flex-direction: column;
     z-index: 2;
@@ -58,12 +62,21 @@ a{text-decoration: none;}
     z-index: 3;
 }
 
-h2{
+h2, h3{
     width: auto;
     height: auto;
     margin-left: 30px;
     padding: 5px;
-    display: inline-block;
+}
+
+h2{
+    padding-top: 20px;
+}
+
+#name, #email, #message{
+    vertical-align: top;
+    margin-left: 30px;
+    width: auto;
 }
 
 #my-picture{
@@ -73,7 +86,7 @@ h2{
     float: left;
 }
 
-#foot{
+.foot{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 5px;
