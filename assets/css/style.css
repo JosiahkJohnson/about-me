@@ -28,12 +28,10 @@ ul.links li{
 a{text-decoration: none;}
 
 .backdrop{
-    position: absolute;
-    padding: 0px;
+    padding: 30px;
     margin: 0px;
     top: 15%;
-    min-height: 70%;
-    height: auto;
+    min-height: 60%;
     width: 100%;
     background-image: url(../images/background-image.png);
     z-index: 1;
@@ -73,6 +71,10 @@ h2{
     padding-top: 20px;
 }
 
+p{
+    padding: 10px;
+}
+
 #name, #email, #message{
     vertical-align: top;
     margin-left: 30px;
@@ -88,13 +90,10 @@ h2{
 
 .foot{
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 5px;
-    margin: 0px;
+    width: 96%;
     height: 10%;
-    bottom: 0px;
-    bottom: auto;
-    background: #666666;
-    color: white;
-    z-index: 1;
+    padding: 2%;
+    background-color: #666666;
+    z-index: 3;
+    bottom: 10%
 }
