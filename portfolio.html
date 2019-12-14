@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Portfolio</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <title>My Portfolio</title>
+        <!--My name at the top of the screen-->
+        <div id="heading">
+        <h1>Josiah Johnson</h1>
+        </div>
+
+        <!--All the fun links in the top right side-->
+        <nav id="contacts">
+            <ul class="links">
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </head>
 <body>
-    
+    <!--The background of the page-->
+    <div class="backdrop">
+              
+        <!--The background of the content on the page-->
+        <div class="content-images">
+            <h2 id ="about-me">Portfolio</h2>
+            <br>
+            <div id="sep-line"></div>
+            <br>
+            <!--An Item frame to hold the image and the text-->
+            <div class="frame">
+                <img src="assets/images/computer.jpg" alt="A stock computer" class="stock-picture">
+
+                <!--The text-->
+                <div class="picture-text">My Computer</div>
+            </div>
+
+            <div class="frame">
+                <img src="assets/images/tablet.jpg" alt="A stock tablet" class="stock-picture">
+                <div class="picture-text">My Tablet</div>
+            </div>
+
+            <div class="frame">
+                <img src="assets/images/mouse.jpg" alt="A stock mouse" class="stock-picture">
+                <div class="picture-text">My... mouse? I guess?</div>
+            </div>
+
+            <div class="frame">
+                <img src="assets/images/phone.jpg" alt="A stock phone" class="stock-picture">
+                <div class="picture-text">My Phone</div>
+            </div>
+
+            <div class="frame">
+                <img src="assets/images/server.jpg" alt="A stock server" class="stock-picture">
+                <div class="picture-text">A Server</div>
+            </div>
+        </div>
+    </div>
 </body>
+
+<footer class="foot">
+    copyright &copy;
+</footer>
 </html>
